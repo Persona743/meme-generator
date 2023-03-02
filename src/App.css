@@ -6,6 +6,12 @@ body {
     margin: 0;
 }
 
+main {
+    padding: 36px;
+}
+
+/* header section */
+
 .header {
     display: flex;
     align-items: center;
@@ -28,4 +34,33 @@ body {
 .header--project {
     font-size: 0.75rem;
     font-weight: 500;
+}
+
+/* Meme section */
+
+.form {
+    display: grid;
+    grid-template: 40px 4px / 1fr 1fr;
+    gap: 17px;
+}
+
+.form--input {
+    font-family: 'Karla', sans-serif;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+}
+
+.form--button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1 / -1;
+    font-family: 'Karla', sans-serif;
+    border-radius: 5px;
+    padding: 1rem;
+    background: linear-gradient(90deg, #011f4b 1.14%, #005b96 30%);
+    color: white;
+    border: none;
+    cursor: pointer;
 }
