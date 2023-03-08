@@ -53,9 +53,9 @@ main {
 }
 
 .form--button {
-    /* display: flex;
+    display: flex;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
     grid-column: 1 / -1;
     font-family: 'Karla', sans-serif;
     border-radius: 5px;
@@ -68,12 +68,13 @@ main {
 
 .meme {
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .meme--image {
     max-width: 100%;
-    top: 13rem;
-    position: absolute;
+    /* top: 13rem; */
 }
 
 .meme--text {
